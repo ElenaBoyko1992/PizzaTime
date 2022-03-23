@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@300&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css" />
+	<title>PizzaTime</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__block block-header">
+				<div class="block-header__container _container">
+					<div class="block-header__row">
+						<div class="block-header__column column-left">
+							<a href="#" class="column-left__logo">
+								<picture>
+									<source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="">
+								</picture>
+							</a>
+						</div>
+						<nav class="block-header__column column-right">
+							<ul class="column-right__menu">
+								<li class="column-right__item-link">
+									<a href="#link-menu">пицца</a>
+								</li>
+								<li class="column-right__item-link">
+									<a href="#link-about">о нас</a>
+								</li>
+								<li class="column-right__item-link">
+									<a href="#link-contacts">контакты</a>
+								</li>
+								<li class="column-right__item-link column-right__item-link_phone">
+									<a href="79999999999">+7 (999) 999-99-99</a>
+								</li>
+							</ul>
+							<button class="column-right__burger">
+								<div class="column-right__burger-lines">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</button>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="header__burger burger-body">
+				<nav class="burger-body__menu">
+					<ul class="burger-body__items">
+						<li class="burger-body__item"><a href="#link-menu">пицца</a></li>
+						<li class="burger-body__item"><a href="#link-about">о нас</a></li>
+						<li class="burger-body__item"><a href="#link-contacts">контакты</a></li>
+						<li class="burger-body__item burger-body__item_phone"><a href="79999999999">+7 (999) 999-99-99</a>
+						</li>
+					</ul>
+					<div class="burger-body__social-links">
+						<a href="" class="burger-body__link burger-body__link_vk">
+						</a>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main id="main-page" class="page">
+			<div class="page__pizza-Moscow pizza-Moscow-block">
+				<div class="pizza-Moscow-block__container _container">
+					<div class="pizza-Moscow-block__content">
+						<div class="pizza-Moscow-block__note">от итальянского повара</div>
+						<h1 class="pizza-Moscow-block__title">Лучшая пицца <br>в Москве</h1>
+						<a href="#link-menu" class="pizza-Moscow-block__select"><span>Выбрать</span></a>
+					</div>
+				</div>
+			</div>
+			<div id="link-menu" class="page__menu menu-block">
+				<div class="menu-block__container _container">
+					<div class="menu-block__content">
+						<h2 class="menu-block__title">Меню</h2>
+						<div class="menu-block__tabs">
+							<div class="menu-block__tab _tabs-item _active">все</div>
+							<div class="menu-block__tab _tabs-item">грибные</div>
+							<div class="menu-block__tab _tabs-item">мясные</div>
+							<div class="menu-block__tab _tabs-item">сырные</div>
+						</div>
+						<div class="menu-block__menu">
+							<div class="menu-block__menu-list _tabs-block _active">
+								<div class="menu-block__row">
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_1.webp" type="image/webp"><img
+														src="img/menu-block/pizza_1.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Салями</div>
+											<div class="item-menu__description">Салями, картофель и морковь, огурцы
+												маринованные, моцарелла, цыпленок,
+												ветчина и французский соус</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">850 ₽</div>
+													<div class="item-menu__price _tabs-price">750 ₽</div>
+													<div class="item-menu__price _tabs-price">650 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_2.webp" type="image/webp"><img
+														src="img/menu-block/pizza_2.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Хит</div>
+											<div class="item-menu__description">Картофель и морковь, огурцы
+												маринованные, моцарелла, цыпленок,
+												ветчина и французский соус</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">950 ₽</div>
+													<div class="item-menu__price _tabs-price">850 ₽</div>
+													<div class="item-menu__price _tabs-price">750 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_3.webp" type="image/webp"><img
+														src="img/menu-block/pizza_3.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Ветчина-грибы</div>
+											<div class="item-menu__description">Салями, картофель и морковь, огурцы
+												маринованные, моцарелла, цыпленок,
+												ветчина и французский соус</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">880 ₽</div>
+													<div class="item-menu__price _tabs-price">780 ₽</div>
+													<div class="item-menu__price _tabs-price">680 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="menu-block__row">
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_4.webp" type="image/webp"><img
+														src="img/menu-block/pizza_4.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Карбонара</div>
+											<div class="item-menu__description">Салями, курица, моцарелла, говядина,
+												ветчина и французский соус</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">1250 ₽</div>
+													<div class="item-menu__price _tabs-price">1150 ₽</div>
+													<div class="item-menu__price _tabs-price">1050 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_5.webp" type="image/webp"><img
+														src="img/menu-block/pizza_5.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Фирменная</div>
+											<div class="item-menu__description">Томатно-сливочный соус, бекон, моцарелла</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">890 ₽</div>
+													<div class="item-menu__price _tabs-price">790 ₽</div>
+													<div class="item-menu__price _tabs-price">690 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_6.webp" type="image/webp"><img
+														src="img/menu-block/pizza_6.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Ассорти</div>
+											<div class="item-menu__description">Картофель моцарелла, цыпленок, грибы,
+												ветчина и французский соус</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">850 ₽</div>
+													<div class="item-menu__price _tabs-price">750 ₽</div>
+													<div class="item-menu__price _tabs-price">650 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="menu-block__row">
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_7.webp" type="image/webp"><img
+														src="img/menu-block/pizza_7.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Л-01</div>
+											<div class="item-menu__description">Томаты, моцарелла, цыпленок,
+												ветчина и французский соус, секректныйингредиент</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">920 ₽</div>
+													<div class="item-menu__price _tabs-price">820 ₽</div>
+													<div class="item-menu__price _tabs-price">720 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_8.webp" type="image/webp"><img
+														src="img/menu-block/pizza_8.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Три сыра</div>
+											<div class="item-menu__description">Чеддер, камамбер, эдам</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">990 ₽</div>
+													<div class="item-menu__price _tabs-price">890 ₽</div>
+													<div class="item-menu__price _tabs-price">790 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_9.webp" type="image/webp"><img
+														src="img/menu-block/pizza_9.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Мясная</div>
+											<div class="item-menu__description">Курица, говядина, сливочный соус, салями,
+												огурцы маринованные, томаты, грибы,
+												бекон</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">950 ₽</div>
+													<div class="item-menu__price _tabs-price">850 ₽</div>
+													<div class="item-menu__price _tabs-price">750 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="menu-block__menu-list _tabs-block">
+								<div class="menu-block__row">
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_7.webp" type="image/webp"><img
+														src="img/menu-block/pizza_7.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Л-01</div>
+											<div class="item-menu__description">Томаты, моцарелла, цыпленок,
+												ветчина и французский соус, секректныйингредиент</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">920 ₽</div>
+													<div class="item-menu__price _tabs-price">820 ₽</div>
+													<div class="item-menu__price _tabs-price">720 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_8.webp" type="image/webp"><img
+														src="img/menu-block/pizza_8.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Три сыра</div>
+											<div class="item-menu__description">Чеддер, камамбер, эдам</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">990 ₽</div>
+													<div class="item-menu__price _tabs-price">890 ₽</div>
+													<div class="item-menu__price _tabs-price">790 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_9.webp" type="image/webp"><img
+														src="img/menu-block/pizza_9.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Мясная</div>
+											<div class="item-menu__description">Курица, говядина, сливочный соус, салями,
+												огурцы маринованные, томаты, грибы,
+												бекон</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">950 ₽</div>
+													<div class="item-menu__price _tabs-price">850 ₽</div>
+													<div class="item-menu__price _tabs-price">750 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="menu-block__menu-list _tabs-block">
+								<div class="menu-block__row">
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_4.webp" type="image/webp"><img
+														src="img/menu-block/pizza_4.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Карбонара</div>
+											<div class="item-menu__description">Салями, курица, моцарелла, говядина,
+												ветчина и французский соус</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">1250 ₽</div>
+													<div class="item-menu__price _tabs-price">1150 ₽</div>
+													<div class="item-menu__price _tabs-price">1050 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_5.webp" type="image/webp"><img
+														src="img/menu-block/pizza_5.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Фирменная</div>
+											<div class="item-menu__description">Томатно-сливочный соус, бекон, моцарелла</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">890 ₽</div>
+													<div class="item-menu__price _tabs-price">790 ₽</div>
+													<div class="item-menu__price _tabs-price">690 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_6.webp" type="image/webp"><img
+														src="img/menu-block/pizza_6.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Ассорти</div>
+											<div class="item-menu__description">Картофель моцарелла, цыпленок, грибы,
+												ветчина и французский соус</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">850 ₽</div>
+													<div class="item-menu__price _tabs-price">750 ₽</div>
+													<div class="item-menu__price _tabs-price">650 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="menu-block__menu-list _tabs-block">
+								<div class="menu-block__row">
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_1.webp" type="image/webp"><img
+														src="img/menu-block/pizza_1.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Салями</div>
+											<div class="item-menu__description">Салями, картофель и морковь, огурцы
+												маринованные, моцарелла, цыпленок,
+												ветчина и французский соус</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">850 ₽</div>
+													<div class="item-menu__price _tabs-price">750 ₽</div>
+													<div class="item-menu__price _tabs-price">650 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_2.webp" type="image/webp"><img
+														src="img/menu-block/pizza_2.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Хит</div>
+											<div class="item-menu__description">Картофель и морковь, огурцы
+												маринованные, моцарелла, цыпленок,
+												ветчина и французский соус</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">950 ₽</div>
+													<div class="item-menu__price _tabs-price">850 ₽</div>
+													<div class="item-menu__price _tabs-price">750 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+									<div class="menu-block__item item-menu">
+										<div class="item-menu__card">
+											<div class="item-menu__img">
+												<picture>
+													<source srcset="img/menu-block/pizza_3.webp" type="image/webp"><img
+														src="img/menu-block/pizza_3.jpg" alt="">
+												</picture>
+											</div>
+											<div class="item-menu__name">Ветчина-грибы</div>
+											<div class="item-menu__description">Салями, картофель и морковь, огурцы
+												маринованные, моцарелла, цыпленок,
+												ветчина и французский соус</div>
+											<div class="item-menu__size">
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size _active">35см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">30см</div>
+												</div>
+												<div class="item-menu__size-block">
+													<div class="item-menu__size-item _tabs-size">25см</div>
+												</div>
+											</div>
+											<div class="item-menu__price-order">
+												<div class="item-menu__prices">
+													<div class="item-menu__price _tabs-price _active">880 ₽</div>
+													<div class="item-menu__price _tabs-price">780 ₽</div>
+													<div class="item-menu__price _tabs-price">680 ₽</div>
+												</div>
+												<button class="item-menu__order">заказать</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-block__fill-form fill-form">
+					<div class="fill-form__close-click"></div>
+					<div class="fill-form__wrapper">
+						<div class="fill-form__pop-up">
+							<div class="fill-form__title">Заполните форму</div>
+							<div class="fill-form__text">Мы привезем вам горячую <br>
+								пиццу за 50 минут</div>
+							<div class="fill-form__mini-card mini-card">
+								<div class="mini-card__img"></div>
+								<div class="mini-card__name-and-price">
+									<div class="mini-card__name"></div>
+									<div class="mini-card__price"></div>
+								</div>
+								<div class="mini-card__size"></div>
+							</div>
+							<div class="fill-form__order-form">
+								<form action="#" class="fill-form__form">
+									<div class="fill-form__inputs">
+										<div class="fill-form__input">
+											<input type="text" placeholder="Имя" class="fill-form__information">
+										</div>
+										<div class="fill-form__input">
+											<input type="text" placeholder="Телефон" class="fill-form__information">
+										</div>
+										<div class="fill-form__input">
+											<input type="text" placeholder="Адрес" class="fill-form__information">
+										</div>
+										<div class="fill-form__input">
+											<select class="fill-form__information fill-form__information-arrow" name="" id="">
+												<option value="">Оплата наличными</option>
+												<option value="">Оплата картой</option>
+											</select>
+										</div>
+									</div>
+									<button type="submit"
+										class="fill-form__information fill-form__information_button">Отправить</button>
+								</form>
+
+							</div>
+							<div class="fill-form__close">x</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-block__sent order-sent">
+					<div class="order-sent__close-click"></div>
+					<div class="order-sent__wrapper">
+						<div class="order-sent__pop-up">
+							<div class="order-sent__title">Успешно отправлено</div>
+							<div class="order-sent__text">Мы уже начали готовить вашу пиццу</div>
+							<div class="order-sent__close">x</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="link-about" class="page__about about-us">
+				<div class="about-us__content">
+					<div class="about-us__columns">
+						<div class="about-us__left-column"></div>
+						<div class="about-us__right-column information-about">
+							<div class="information-about__information">
+								<div class="information-about__title">О нас</div>
+								<div class="information-about__text">Доставим вам горячую пиццу менее чем за час или пицца
+									бесплатно.
+									Мы готовим пиццу только из свежих продуктов. Каждый день мы покупаем свежие овощи, грибы и
+									мясо.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="link-contacts" class="page__contacts contacts-section">
+				<div class="contacts-section__container _container">
+					<div class="contacts-section__content">
+						<div class="contacts-section__title">Контакты</div>
+						<div class="contacts-section__columns">
+							<div class="contacts-section__left-column">
+								<div id="map" class="contacts-section__map"></div>
+							</div>
+							<div class="contacts-section__right-column contacts-right">
+								<div class="contacts-right__address">
+									<div class="contacts-right__title">Адрес</div>
+									<div class="contacts-right__text">г. Москва, Преображенская площадь, 8</div>
+								</div>
+								<div class="contacts-right__phone">
+									<div class="contacts-right__title">Телефон</div>
+									<div class="contacts-right__text">+7 (911) 711-21-23</div>
+								</div>
+								<div class="contacts-right__social-media">
+									<div class="contacts-right__title">Социальные сети</div>
+									<div class="contacts-right__social-icons">
+										<div class="contacts-right__item">
+											<a href="" class="contacts-right__icon contacts-right__icon_icon-1"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__block">
+				<div class="footer__container _container">
+					<div class="footer__brand">PizzaTime 2020</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=93600b05-c830-4afc-a874-8b8f558687c2"
+		type="text/javascript"></script>
+	<script src="js/script.min.js"></script>
+
+</body>
+
+</html>

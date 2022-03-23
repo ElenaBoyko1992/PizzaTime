@@ -1,0 +1,27 @@
+.footer {
+    background-color: #1f1f1f;
+    // .footer__block
+
+    &__block {
+    }
+
+    // .footer__container
+
+    &__container {
+    }
+
+    // .footer__brand
+
+    &__brand {
+        text-align: center;
+        opacity: 0.3;
+        font-weight: 900;
+        color: #ffffff;
+        padding: 35px 20px;
+
+    }
+}
+
+
+
+
